@@ -1,6 +1,31 @@
 # Changelog
 
 
+### 2.0.14
+
+* [Fix #193](https://github.com/versatica/mediasoup/issues/193) `preferTcp` not honored (thanks @artushin).
+
+### 2.0.13
+
+* Avoid crash when no remote IP/port is given.
+
+
+### 2.0.12
+
+* Add `handled` and `unhandled` events to `Consumer`.
+
+
+### 2.0.11
+
+* [Fix #185](https://github.com/versatica/mediasoup/issues/185) Consumer: initialize effective profile to 'NONE' (thanks @artushin).
+* [Fix #186](https://github.com/versatica/mediasoup/issues/186) NackGenerator code being executed after instance deletion (thanks @baiyufei).
+
+
+### 2.0.10
+
+* [Fix #183](https://github.com/versatica/mediasoup/issues/183): Always reset the effective `Consumer` profile when removed (thanks @thehappycoder).
+
+
 ### 2.0.9
 
 * Make ICE+DTLS more flexible by allowing sending DTLS handshake when ICE is just connected.
